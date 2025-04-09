@@ -17,6 +17,7 @@ You can run your application in dev mode that enables live coding using:
 
 ## integration tests
 ```shell script
+    docker run --rm  --name mon-redis -p 6379:6379 -d redis:7
     mvn clean  verify -DskipITs=false  -Dtest=CarResourceIT  -Dquarkus.test.profile=prod
 ```
 
