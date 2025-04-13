@@ -1,10 +1,5 @@
 package org.acme;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.eclipse.microprofile.config.Config;
-import org.eclipse.microprofile.config.ConfigProvider;
 
 import io.quarkus.logging.Log;
 import jakarta.inject.Inject;

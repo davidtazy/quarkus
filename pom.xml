@@ -71,6 +71,11 @@
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-resteasy-jackson</artifactId>
         </dependency>
+
+        <dependency>
+        <groupId>io.quarkus</groupId>
+        <artifactId>quarkus-scheduler</artifactId>
+    </dependency>
     
     <!-- Lombok for @Slf4j -->
     <dependency>
